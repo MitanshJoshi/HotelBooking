@@ -18,7 +18,7 @@ import BookingPage from "./Pages/BookingPage";
 import BookingsPage from "./Pages/BookingsPage";
 
 
-axios.defaults.baseURL = "http://localhost:4000"
+axios.defaults.baseURL = "https://hotel-booking-backend-theta.vercel.app/"
 axios.defaults.withCredentials=true;
 
 function App() {
